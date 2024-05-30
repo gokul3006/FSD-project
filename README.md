@@ -27,3 +27,6 @@ Every transaction detail, including the amount and time it occurred, is transmit
 
 ## Zscore chart
 ![z-score chart](zscore%20chart.png)
+
+## Amount chart
+![Amount chart](amount%20chart.png)
