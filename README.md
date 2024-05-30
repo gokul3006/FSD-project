@@ -10,7 +10,7 @@ Built a model that helps detect suspicious transactions by using a method called
 - CSS
 
 ## Microservice Architecture Diagram
-![Microservice Architecture Diagram](path/to/your/diagram.png) <!-- Update with the actual path to your diagram image -->
+![Microservice Architecture Diagram](Microservice Architecture Diagram.jpg) <!-- Update with the actual path to your diagram image -->
 
 ## API Gateway
 Built an API gateway where all requests come to an entry point and these requests are routed to the respective services.
