@@ -9,7 +9,7 @@ const DashboardPage = () => {
 
     useEffect(() => {
         // Fetch data from the API
-        fetch('http://localhost:8080/data')
+        fetch('http://localhost:8083/user/data')
             .then(response => response.json())
             .then(data => {
                 const sortedData = data.sort((a, b) => new Date(a.dateTime) - new Date(b.dateTime));
