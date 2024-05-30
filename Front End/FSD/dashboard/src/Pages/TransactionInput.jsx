@@ -17,7 +17,7 @@ const TransactionInput = () => {
         };
 
         try {
-            const response = await axios.post("http://localhost:8080/process-data", data);
+            const response = await axios.post("http://localhost:8080/user/send", data);
             setShowSuccess(true);
             setResponseMessage(response.data);
             console.log(response);
