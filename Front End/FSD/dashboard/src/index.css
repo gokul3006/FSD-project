@@ -1,0 +1,165 @@
+/* Reset and Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Card Container Styles */
+
+.dashboard-card {
+  background-color: #e3f2fd; /* Light blue background for the card */
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+/* Header Styles */
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #e3f2fd; /* Ensure header has the same background */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.header h2 {
+  color: #333;
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Chart Container Styles */
+.chart-container {
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #e3f2fd; /* Light blue background for the chart container */
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Legend Styles */
+.legend-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #e3f2fd; /* Light blue background for the legend container */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+/* Button Container Styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  background-color: #e3f2fd; /* Light blue background for the button container */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.small-button {
+  padding: 5px 10px; /* Smaller padding */
+  font-size: 14px; /* Smaller font size */
+  background-color: #007bff; /* Blue color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto; /* Ensure the button width is auto */
+}
+
+.small-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Form Container Styles */
+.form-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #e3f2fd; /* Light blue background for the form */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="number"],
+input[type="datetime-local"],
+button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="number"],
+input[type="datetime-local"] {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Success Popup Styles */
+.success-popup {
+  margin-top: 20px; 
+}

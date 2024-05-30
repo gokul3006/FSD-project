@@ -1,0 +1,4 @@
+FROM openjdk:17
+EXPOSE 9090
+ADD target/eureka.jar eureka.jar
+ENTRYPOINT [ "java","-jar","eureka.jar"]
