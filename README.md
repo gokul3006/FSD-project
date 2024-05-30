@@ -23,3 +23,7 @@ Analyzes transaction data by calculating a z-score, flagging transactions as sus
 
 ## User Service
 Every transaction detail, including the amount and time it occurred, is transmitted from the user service to the model service for real-time data analysis. This ensures that each transaction undergoes immediate scrutiny for suspicious activity detection. The results of data analysis are fetched from the user service and presented in the form of a graph.
+
+
+## Zscore chart
+![z-score chart](zscore%20chart.png)
